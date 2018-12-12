@@ -1,7 +1,7 @@
 package com.dataloader.enums;
 
 public enum BulkJobOperation {
-	INSERT("insert"), DELETE("delete"), HARD_DELETE("hardDelete");
+	INSERT("insert"), DELETE("delete"), HARDDELETE("hardDelete");
 
 	private String operation;
 

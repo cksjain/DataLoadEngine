@@ -76,6 +76,8 @@ public class HttpRequest {
 		for (String key : requestHeaders.keySet()) {
 			put.setHeader(key, requestHeaders.get(key));
 		}
+		System.out.println("Request PUT");
+		System.out.println(requestBody);
 		HttpEntity entity = new ByteArrayEntity(requestBody.getBytes("UTF-8"));
 		put.setEntity(entity);
 		HttpResponse responseValue = client.execute(put);

@@ -1,7 +1,7 @@
 package com.dataloader.enums;
 
 public enum BulkJobContentType {
-	QUERY("JSON"), FILE("CSV");
+	QUERY("JSON"), FILE("CSV"), CSV("text/csv");
 
 	private String jobType;
 
