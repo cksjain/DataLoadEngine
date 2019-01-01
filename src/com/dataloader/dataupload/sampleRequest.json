@@ -1,0 +1,49 @@
+//ref will be the source record Id by removing the start 3 chars of Ids
+{
+	"records": [
+		{
+			"attributes": {
+				"type": "Account",
+				"referenceId": "ref1"
+			},
+			"name": "SampleAccount1",
+			"phone": "1111111111",
+			"website": "www.salesforce.com",
+			"numberOfEmployees": "100",
+			"industry": "Banking"
+		},
+		{
+			"attributes": {
+				"type": "Account",
+				"referenceId": "ref2"
+			},
+			"name": "SampleAccount2",
+			"phone": "2222222222",
+			"website": "www.salesforce2.com",
+			"numberOfEmployees": "250",
+			"industry": "Banking"
+		},
+		{
+			"attributes": {
+				"type": "Account",
+				"referenceId": "ref3"
+			},
+			"name": "SampleAccount3",
+			"phone": "3333333333",
+			"website": "www.salesforce3.com",
+			"numberOfEmployees": "52000",
+			"industry": "Banking"
+		},
+		{
+			"attributes": {
+				"type": "Account",
+				"referenceId": "ref4"
+			},
+			"name": "SampleAccount4",
+			"phone": "4444444444",
+			"website": "www.salesforce4.com",
+			"numberOfEmployees": "2500",
+			"industry": "Banking"
+		}
+	]
+}

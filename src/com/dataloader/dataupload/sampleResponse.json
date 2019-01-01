@@ -1,0 +1,21 @@
+{
+	"hasErrors": false,
+	"results": [
+		{
+			"referenceId": "ref1",
+			"id": "001D000000K1YFjIAN"
+		},
+		{
+			"referenceId": "ref2",
+			"id": "001D000000K1YFkIAN"
+		},
+		{
+			"referenceId": "ref3",
+			"id": "001D000000K1YFlIAN"
+		},
+		{
+			"referenceId": "ref4",
+			"id": "001D000000K1YFmIAN"
+		}
+	]
+}
